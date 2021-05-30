@@ -1,0 +1,9 @@
+ikariam:
+  game:
+    url: https://lobby.ikariam.gameforge.com/pt_BR/
+  email: your@email.com
+  password: yourPassword
+  telegram:
+    user:
+      id: yourTelegramUserId
+    token: yourTelegramBotToken
