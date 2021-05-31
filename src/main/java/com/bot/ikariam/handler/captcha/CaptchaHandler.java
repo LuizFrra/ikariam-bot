@@ -30,9 +30,8 @@ public class CaptchaHandler {
             log.info("Starting solve captcha");
             File captcha = navigator.takeScreenshotForElement(FORM_CAPTCHA);
             populateCaptchaForm(getCaptchaResponseResult(captcha));
-            return true;
         }
-        return false;
+        return !isNeedToSolveCaptcha();
     }
 
     private String getCaptchaResponseResult(File captcha) {

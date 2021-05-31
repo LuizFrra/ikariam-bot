@@ -7,5 +7,7 @@ public class Constants {
 
     public static final By MISSION_IN_PROGRESS_BAR = By.id("missionProgressBar");
 
+    public static final By MISSION_IN_PROGRESS_TEXT_BOX = By.className("By.className(\"ongoingMission\")");
+
     public static final By CAPTURE_BUTTON = By.xpath("//a[text()='Capturar']");
 }
